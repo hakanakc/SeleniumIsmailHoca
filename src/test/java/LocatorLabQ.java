@@ -46,6 +46,7 @@ Thread.sleep(5000);
         //    submit.click();
 // Print out full name
 
+
         String fullname = driver.findElement(By.xpath("//div[@class='personal-label']")).getText();
         // Print out full name
         System.out.println(fullname);
