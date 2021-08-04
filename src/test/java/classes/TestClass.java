@@ -62,9 +62,7 @@ WebDriver driver;
 int a = 10;
 // dikkat send.keys herzaman string gonderir bu yuzden asagida direk tirnak icine yazilmadi sayilar.
 enterA.sendKeys(String.valueOf(a));
-
-
-        int b = 20;
+      int b = 20;
      WebElement enterB = driver.findElement(By.xpath("//input[@id='sum2']"));
 
 
