@@ -59,8 +59,8 @@ dateArea.click();
 
 
 
-  WebElement datePicker = driver.findElement(By.xpath("//*[class='datepicker-days']))//*[@class='datepicker-switch']"));
-    WebElement previousButton = datePicker.findElement(By.xpath("//*[class='datepicker-days']//*[@class='prev']"));
+  WebElement datePicker = driver.findElement(By.xpath("//*[@class='datepicker-days']//*[@class='datepicker-switch']"));
+    WebElement previousButton = datePicker.findElement(By.xpath("//*[@class='datepicker-days']//*[@class='prev']"));
   WebElement submit = driver.findElement(By.linkText("Submit"));
 
 
@@ -72,7 +72,7 @@ dateArea.click();
         previousButton.click();
     }
     Thread.sleep(5000);
-  WebElement day = driver.findElement(By.xpath("//*[@class='day' and contains(test(),'28')]"));
+  WebElement day = driver.findElement(By.xpath("//*[@class='day' and contains(text(),'28')]"));
   day.click();
 Thread.sleep(5000);
 
